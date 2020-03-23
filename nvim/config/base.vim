@@ -51,9 +51,6 @@ set history=500
 " 配置文件被修改后，自动更新文件
 set autoread
 
-" 使用空格代替制表符
-set expandtab
-
 " 自动对齐
 set autoindent
 
