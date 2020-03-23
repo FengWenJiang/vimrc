@@ -18,9 +18,9 @@
             + plugins                   下载的插件保存位置
             + base.vim                  全局配置
             + keymap.vim                按键绑定相关
-			+ other.vim					其它相关配置
+            + other.vim					其它相关配置
             + plug.vim                  插件相关配置
-			+ tabsize.vim				缩进相关配置
+            + tabsize.vim				缩进相关配置
             + theme.vim                 主题相关配置
         + init.vim                      基础配置文件
         + 创建初始化配置文件方法.txt
