@@ -1,0 +1,8 @@
+" 先启动 neovim
+nvim
+
+" 然后再 neovim 中输入如下两条命令
+:call mkdir(stdpath('config'), 'p')
+:exe 'edit '.stdpath('config').'/init.vim'
+
+Neovim 的配置文件就创建成功了，其路径位于：C:\Users\<user>\AppData\Local\nvim\init.vim
