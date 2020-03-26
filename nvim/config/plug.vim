@@ -4,7 +4,11 @@
 "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-call plug#begin('~/AppData/Local/nvim/config/plugins')
+if (has('win32') || has('win64'))
+    call plug#begin('~/AppData/Local/nvim//plugins')
+else
+    call plug#begin('~/.config/nvim/plugins')
+endif 
 
 " ************************************************************
 Plug 'jiangmiao/auto-pairs'
