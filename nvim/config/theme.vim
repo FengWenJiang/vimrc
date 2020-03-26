@@ -11,8 +11,6 @@ set laststatus=2
 " 允许 256 色
 set t_Co=256 
 
-" 设置黑色背景
-"set background=dark
 
 
 "----------------------------------------------------------------------
@@ -196,13 +194,16 @@ endfunction
 
 autocmd! colorscheme hybrid_reverse call s:patch_lucius_colors()
 
-if has('gui_running')
-    set background=light
-else
-    "set background=dark
+if (has("win32") || has("win64"))
+    " 设置黑色背景
+    set background=dark
+    colorscheme molokai
+else    
+    " 设置黑色背景
+    set background=dark
+    colorscheme solarized
 endif
 
-"colorscheme molokai
 
 "------------------------------------------------------"
 " 设置vim搜索匹配项的颜色
