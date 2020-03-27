@@ -197,3 +197,9 @@ noremap <m-n> :LeaderfBuffer<cr>
 
 " ALT+m 全局 tags 模糊匹配
 noremap <m-m> :LeaderfTag<cr>
+
+
+
+" ---------------------------
+" vista.vim插件
+" ---------------------------
